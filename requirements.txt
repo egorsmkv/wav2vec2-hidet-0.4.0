@@ -1,0 +1,7 @@
+torch
+
+soundfile
+
+transformers
+
+hidet==0.4.0
