@@ -4,4 +4,6 @@ soundfile
 
 transformers
 
-hidet==0.4.0
+hidet==0.4.1
+
+scipy

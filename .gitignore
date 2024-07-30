@@ -1,2 +1,4 @@
 .ruff_cache/
 .venv/
+
+short_1_16k.wav

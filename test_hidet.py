@@ -1,3 +1,4 @@
+import sys
 import torch
 import soundfile as sf
 
@@ -6,6 +7,7 @@ from transformers import AutoModelForCTC, Wav2Vec2BertProcessor
 from importlib.metadata import version
 
 # Check versions of libraries
+print("python:", sys.version)
 print("torch:", version("torch"))
 print("transformers:", version("transformers"))
 print("hidet:", version("hidet"))
